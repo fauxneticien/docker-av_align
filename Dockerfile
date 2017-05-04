@@ -15,6 +15,5 @@ RUN cd /usr/bin \
 	&& ln -s python3 python
 
 RUN pip install --upgrade pip \
-    && pip install numpy
+    && pip install numpy \
     && pip install pyfftw
-
