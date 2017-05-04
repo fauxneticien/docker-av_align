@@ -22,5 +22,5 @@ RUN pip install --upgrade pip \
 
 WORKDIR /
 
-RUN git clone https://fauxneticien@gitlab.com/fauxneticien/av_align.py.git /tmp \
+RUN git clone https://fauxneticien@gitlab.com/fauxneticien/av_align.py.git /tmp/av_align \
     && mv /tmp/av_align/av_align.py /av_align.py
